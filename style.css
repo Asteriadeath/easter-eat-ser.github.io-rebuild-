@@ -5,4 +5,24 @@ h1 {
     font-family:monospace;
     color:white;
     text-align: center;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 50px;
+    text-shadow: 2px 5px 3px darkblue;
+    
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:whitesmoke;
+    margin: 20px;
+    font-weight:bold;
+}
+#all {
+    background-color: teal;
+    padding:10px;
+    margin:20px;
+    border-radius: 10px;
+    border-color: aqua;
+    border-width: 10px;
+    border-style: inset;
 }
