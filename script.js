@@ -1,6 +1,6 @@
 function copy() {
     // Get the text field
-  var copyText = document.getElementById("myInput");
+  var copyText = document.getElementById("edgeworth");
 
   // Select the text field
   copyText.select();
@@ -11,5 +11,5 @@ function copy() {
    // you absolute dumbass
    // did gumfuck not tell you
    // updated autopsy report!!!!!!!!!!!!!
-   alert("updated")
+   
 }
