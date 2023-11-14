@@ -1,5 +1,6 @@
 body {
     background-color: darkturquoise;
+    margin:0px;
 }
 h1 {
     font-family:monospace;
@@ -25,4 +26,29 @@ p {
     border-color: aqua;
     border-width: 10px;
     border-style: inset;
+}
+img {
+    image-rendering: pixelated;
+}
+#mystuff {
+    box-shadow: 0px 0px 50px purple;
+    background-color: purple;
+    padding:5px;
+    font-size: 12px;
+    color:white;
+    margin:20px;
+    border-radius: 0px;
+    border-color: plum;
+    border-width: 1px;
+    border-style:solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#stuff2 {
+    background-color: white;
+}
+#windowlogo {
+    font-weight: lighter;
+    margin: 2px;
+    margin-bottom: 5px;
+    font-size: 13px;
 }
