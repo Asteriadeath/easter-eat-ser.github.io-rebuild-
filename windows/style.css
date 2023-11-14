@@ -1,0 +1,10 @@
+* {
+    image-rendering: pixelated;
+}
+vid {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 400px;
+    text-align: center;
+}
