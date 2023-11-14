@@ -2,19 +2,21 @@ const garbo = ["Encrypting runtime state...", "(6/10) processes completed! Attem
 var random;
 var body = document.getElementById("body");
 var intvla1;
-function sleep(milliseconds) {
-    var start = new Date().getTime();
-    for (var i = 0; i < 1e7; i++) {
-      if ((new Date().getTime() - start) > milliseconds){
-        break;
-      }
-    }
+function loadFile(filePath) {
+  var result = null;
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.open("GET", filePath, false);
+  xmlhttp.send();
+  if (xmlhttp.status==200) {
+    result = xmlhttp.responseText;
   }
+  return result;
+}
 function start() {
     
     body.innerHTML = "Microlog ML-DOG<br>    Copywrong Microlog Corp 1867-1868<br><br>C:\\Windbomb\\explorer.exe<br>Loading main OS cache into RAM...<br>"
     intvla1 = setInterval(printGarb,15);
-    setTimeout(splash1, 400);
+    setTimeout(splash1, 200);
 }
 function splash1() {
     clearInterval(intvla1);
@@ -23,12 +25,13 @@ function splash1() {
 }
 function splash2() {
     body.innerHTML = "";
-    setTimeout(login, 10000);
-    body.setAttribute("style", "background-color:black;")
-    body.innerHTML = "<span style=\"color:white;font-family:monospace;\"></span><video autoplay muted width=\"50%\" id=\"vid\"><source src=\"intro.mp4\" type=\"video/mp4\";></video>"
+    setTimeout(login, 3000);
+    body.setAttribute("style", "background-color:teal;")
+    body.innerHTML = "<span style=\"color:white;font-family:monospace;\"></span><video autoplay muted height=\"200\" id=\"vid\"><source src=\"intro.mp4\" type=\"video/mp4\";></video>"
 }
 function login() {
-    body.innerHTML = "<img ssrc>
+    body.setAttribute("style", "background-color:teal;")
+    location.href = 'login.html';
     
 }
 function printGarb() {
@@ -37,4 +40,4 @@ function printGarb() {
     window.scrollTo(0, document.body.scrollHeight);
 }
 
-setTimeout(start, 500); 
+setTimeout(start, 5); 

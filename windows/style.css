@@ -8,3 +8,10 @@ vid {
     width: 400px;
     text-align: center;
 }
+
+#windowlog {
+    background-color: #c3c3c3;
+    font-family: 'MS Sans Serif', sans-serif;
+    border-style: outset;
+    padding: 10px;
+}
