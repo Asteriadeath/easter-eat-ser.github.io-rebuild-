@@ -62,3 +62,18 @@ img {
     padding:15px;
     background-repeat: repeat-x;
 }
+#doomtem {
+    background-image: url("https://flyclipart.com/thumb2/scratch-studio-760323.png");
+    background-repeat: repeat;
+    background-size: contain;
+    margin-bottom:0px;
+}
+#metmood {
+    margin-top: 0px;
+    background-image: url("https://flyclipart.com/thumb2/scratch-studio-760323.png");
+    background-repeat: repeat;
+    background-size: contain;
+    transform: scaleY(-1);
+    color: #FFFFFFBB;
+    text-shadow: none;
+}
